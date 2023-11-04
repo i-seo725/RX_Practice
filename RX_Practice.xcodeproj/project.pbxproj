@@ -9,21 +9,41 @@
 /* Begin PBXBuildFile section */
 		F480CBC02AF132D500026E16 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F480CBBF2AF132D500026E16 /* AppDelegate.swift */; };
 		F480CBC22AF132D500026E16 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F480CBC12AF132D500026E16 /* SceneDelegate.swift */; };
-		F480CBC42AF132D500026E16 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F480CBC32AF132D500026E16 /* ViewController.swift */; };
+		F480CBC42AF132D500026E16 /* PickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F480CBC32AF132D500026E16 /* PickerViewController.swift */; };
 		F480CBC72AF132D500026E16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F480CBC52AF132D500026E16 /* Main.storyboard */; };
 		F480CBC92AF132D600026E16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F480CBC82AF132D600026E16 /* Assets.xcassets */; };
 		F480CBCC2AF132D600026E16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F480CBCA2AF132D600026E16 /* LaunchScreen.storyboard */; };
+		F480CBD52AF1419600026E16 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = F480CBD42AF1419600026E16 /* RxCocoa */; };
+		F480CBD72AF1419700026E16 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = F480CBD62AF1419700026E16 /* RxSwift */; };
+		F49ED4E52AF4E549003A8B1B /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49ED4E42AF4E549003A8B1B /* TableViewController.swift */; };
+		F49ED4E72AF4E593003A8B1B /* WireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49ED4E62AF4E593003A8B1B /* WireFrame.swift */; };
+		F49ED4E92AF51549003A8B1B /* ValidationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49ED4E82AF51549003A8B1B /* ValidationViewController.swift */; };
+		F49ED4EB2AF64FC5003A8B1B /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49ED4EA2AF64FC5003A8B1B /* Color.swift */; };
+		F49ED4ED2AF65149003A8B1B /* NumbersViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49ED4EC2AF65149003A8B1B /* NumbersViewModel.swift */; };
+		F49ED4EF2AF6549A003A8B1B /* ValidViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49ED4EE2AF6549A003A8B1B /* ValidViewModel.swift */; };
+		F49ED4F12AF6584F003A8B1B /* TableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49ED4F02AF6584F003A8B1B /* TableViewModel.swift */; };
+		F4EE24D42AF3F01C00AEB1E0 /* NumbersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4EE24D32AF3F01C00AEB1E0 /* NumbersViewController.swift */; };
+		F4EE24D82AF3F2CB00AEB1E0 /* PickerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4EE24D72AF3F2CB00AEB1E0 /* PickerViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F480CBBC2AF132D500026E16 /* RX_Practice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RX_Practice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F480CBBF2AF132D500026E16 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F480CBC12AF132D500026E16 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F480CBC32AF132D500026E16 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F480CBC32AF132D500026E16 /* PickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerViewController.swift; sourceTree = "<group>"; };
 		F480CBC62AF132D500026E16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F480CBC82AF132D600026E16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F480CBCB2AF132D600026E16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F480CBCD2AF132D600026E16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F49ED4E42AF4E549003A8B1B /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		F49ED4E62AF4E593003A8B1B /* WireFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WireFrame.swift; sourceTree = "<group>"; };
+		F49ED4E82AF51549003A8B1B /* ValidationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationViewController.swift; sourceTree = "<group>"; };
+		F49ED4EA2AF64FC5003A8B1B /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		F49ED4EC2AF65149003A8B1B /* NumbersViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumbersViewModel.swift; sourceTree = "<group>"; };
+		F49ED4EE2AF6549A003A8B1B /* ValidViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidViewModel.swift; sourceTree = "<group>"; };
+		F49ED4F02AF6584F003A8B1B /* TableViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewModel.swift; sourceTree = "<group>"; };
+		F4EE24D32AF3F01C00AEB1E0 /* NumbersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumbersViewController.swift; sourceTree = "<group>"; };
+		F4EE24D72AF3F2CB00AEB1E0 /* PickerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +51,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F480CBD72AF1419700026E16 /* RxSwift in Frameworks */,
+				F480CBD52AF1419600026E16 /* RxCocoa in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +78,40 @@
 		F480CBBE2AF132D500026E16 /* RX_Practice */ = {
 			isa = PBXGroup;
 			children = (
+				F4EE24D62AF3F2C300AEB1E0 /* ViewModel */,
+				F4EE24D52AF3F2B900AEB1E0 /* VC */,
 				F480CBBF2AF132D500026E16 /* AppDelegate.swift */,
 				F480CBC12AF132D500026E16 /* SceneDelegate.swift */,
-				F480CBC32AF132D500026E16 /* ViewController.swift */,
 				F480CBC52AF132D500026E16 /* Main.storyboard */,
 				F480CBC82AF132D600026E16 /* Assets.xcassets */,
 				F480CBCA2AF132D600026E16 /* LaunchScreen.storyboard */,
 				F480CBCD2AF132D600026E16 /* Info.plist */,
+				F49ED4E62AF4E593003A8B1B /* WireFrame.swift */,
+				F49ED4EA2AF64FC5003A8B1B /* Color.swift */,
 			);
 			path = RX_Practice;
+			sourceTree = "<group>";
+		};
+		F4EE24D52AF3F2B900AEB1E0 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				F480CBC32AF132D500026E16 /* PickerViewController.swift */,
+				F4EE24D32AF3F01C00AEB1E0 /* NumbersViewController.swift */,
+				F49ED4E42AF4E549003A8B1B /* TableViewController.swift */,
+				F49ED4E82AF51549003A8B1B /* ValidationViewController.swift */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		F4EE24D62AF3F2C300AEB1E0 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F4EE24D72AF3F2CB00AEB1E0 /* PickerViewModel.swift */,
+				F49ED4EC2AF65149003A8B1B /* NumbersViewModel.swift */,
+				F49ED4EE2AF6549A003A8B1B /* ValidViewModel.swift */,
+				F49ED4F02AF6584F003A8B1B /* TableViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +130,10 @@
 			dependencies = (
 			);
 			name = RX_Practice;
+			packageProductDependencies = (
+				F480CBD42AF1419600026E16 /* RxCocoa */,
+				F480CBD62AF1419700026E16 /* RxSwift */,
+			);
 			productName = RX_Practice;
 			productReference = F480CBBC2AF132D500026E16 /* RX_Practice.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +162,9 @@
 				Base,
 			);
 			mainGroup = F480CBB32AF132D500026E16;
+			packageReferences = (
+				F480CBD32AF1419600026E16 /* XCRemoteSwiftPackageReference "RxSwift" */,
+			);
 			productRefGroup = F480CBBD2AF132D500026E16 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,9 +192,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F480CBC42AF132D500026E16 /* ViewController.swift in Sources */,
+				F480CBC42AF132D500026E16 /* PickerViewController.swift in Sources */,
+				F49ED4EF2AF6549A003A8B1B /* ValidViewModel.swift in Sources */,
+				F49ED4ED2AF65149003A8B1B /* NumbersViewModel.swift in Sources */,
+				F49ED4F12AF6584F003A8B1B /* TableViewModel.swift in Sources */,
+				F49ED4E52AF4E549003A8B1B /* TableViewController.swift in Sources */,
+				F4EE24D42AF3F01C00AEB1E0 /* NumbersViewController.swift in Sources */,
+				F49ED4E92AF51549003A8B1B /* ValidationViewController.swift in Sources */,
+				F4EE24D82AF3F2CB00AEB1E0 /* PickerViewModel.swift in Sources */,
+				F49ED4E72AF4E593003A8B1B /* WireFrame.swift in Sources */,
 				F480CBC02AF132D500026E16 /* AppDelegate.swift in Sources */,
 				F480CBC22AF132D500026E16 /* SceneDelegate.swift in Sources */,
+				F49ED4EB2AF64FC5003A8B1B /* Color.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,8 +356,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,9 +365,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "eunseo.RX-Practice";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -321,8 +387,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -330,9 +396,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "eunseo.RX-Practice";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -358,6 +427,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F480CBD32AF1419600026E16 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F480CBD42AF1419600026E16 /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F480CBD32AF1419600026E16 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
+		F480CBD62AF1419700026E16 /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F480CBD32AF1419600026E16 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F480CBB42AF132D500026E16 /* Project object */;
 }

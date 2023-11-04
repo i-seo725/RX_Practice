@@ -15,13 +15,16 @@ class PickerViewController: UIViewController {
     @IBOutlet var pickerView2: UIPickerView!
     @IBOutlet var pickerView3: UIPickerView!
     
+    let viewModel = PickerViewModel()
     let disposeBag = DisposeBag()
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        Observable.just([1, 2, 3])
-            .bind(to: pickerView1.rx.itemTitles) { _, item in
-                return "\(item)"
+
+        Observable.just(viewModel.firstArray)
+            .bind(to: pickerView1.rx.itemTitles) { index, element in
+                return "\(element) ||| \(index)"
             }
             .disposed(by: disposeBag)
 
@@ -31,11 +34,11 @@ class PickerViewController: UIViewController {
             })
             .disposed(by: disposeBag)
         
-        Observable.just([1, 2, 3])
+        Observable.just(viewModel.secondArray)
             .bind(to: pickerView2.rx.itemAttributedTitles) { _, item in
                 return NSAttributedString(string: "\(item)",
                                           attributes: [
-                                            NSAttributedString.Key.foregroundColor: UIColor.cyan,
+                                            NSAttributedString.Key.foregroundColor: UIColor.systemYellow,
                                             NSAttributedString.Key.underlineStyle: NSUnderlineStyle.double.rawValue
                                         ])
             }

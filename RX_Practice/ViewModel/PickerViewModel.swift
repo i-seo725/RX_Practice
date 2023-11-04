@@ -6,3 +6,11 @@
 //
 
 import Foundation
+import RxSwift
+
+class PickerViewModel {
+    
+    let firstArray = [11, 12, 14]
+    let secondArray = ["A", "B", "C"]
+    
+}

@@ -17,15 +17,17 @@ class NumberViewController: UIViewController {
     
     @IBOutlet weak var result: UILabel!
     
+    let viewModel = NumbersViewModel()
     let disposeBag = DisposeBag()
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        Observable.combineLatest(number1.rx.text.orEmpty, number2.rx.text.orEmpty, number3.rx.text.orEmpty) { textValue1, textValue2, textValue3 -> Int in
-                return (Int(textValue1) ?? 0) + (Int(textValue2) ?? 0) + (Int(textValue3) ?? 0)
-            }
-            .map { $0.description }
+        viewModel.firstNum = number1.rx.text.orEmpty
+        viewModel.secondNum = number2.rx.text.orEmpty
+        viewModel.thirdNum = number3.rx.text.orEmpty
+        
+        viewModel.combine
             .bind(to: result.rx.text)
             .disposed(by: disposeBag)
     }
