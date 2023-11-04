@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F47046FE2AF6B21E00C105E0 /* ShoppingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47046FD2AF6B21E00C105E0 /* ShoppingViewController.swift */; };
+		F470470D2AF6BEF900C105E0 /* ShoppingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F470470C2AF6BEF900C105E0 /* ShoppingTableViewCell.swift */; };
+		F470470F2AF6BFF000C105E0 /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F470470E2AF6BFF000C105E0 /* Todo.swift */; };
+		F47047112AF6C39800C105E0 /* SampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47047102AF6C39800C105E0 /* SampleViewController.swift */; };
 		F480CBC02AF132D500026E16 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F480CBBF2AF132D500026E16 /* AppDelegate.swift */; };
 		F480CBC22AF132D500026E16 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F480CBC12AF132D500026E16 /* SceneDelegate.swift */; };
 		F480CBC42AF132D500026E16 /* PickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F480CBC32AF132D500026E16 /* PickerViewController.swift */; };
@@ -27,6 +31,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F47046FD2AF6B21E00C105E0 /* ShoppingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingViewController.swift; sourceTree = "<group>"; };
+		F470470C2AF6BEF900C105E0 /* ShoppingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingTableViewCell.swift; sourceTree = "<group>"; };
+		F470470E2AF6BFF000C105E0 /* Todo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todo.swift; sourceTree = "<group>"; };
+		F47047102AF6C39800C105E0 /* SampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleViewController.swift; sourceTree = "<group>"; };
 		F480CBBC2AF132D500026E16 /* RX_Practice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RX_Practice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F480CBBF2AF132D500026E16 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F480CBC12AF132D500026E16 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +67,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F470470B2AF6BEE900C105E0 /* Shopping */ = {
+			isa = PBXGroup;
+			children = (
+				F47046FD2AF6B21E00C105E0 /* ShoppingViewController.swift */,
+				F470470C2AF6BEF900C105E0 /* ShoppingTableViewCell.swift */,
+				F470470E2AF6BFF000C105E0 /* Todo.swift */,
+				F47047102AF6C39800C105E0 /* SampleViewController.swift */,
+			);
+			path = Shopping;
+			sourceTree = "<group>";
+		};
 		F480CBB32AF132D500026E16 = {
 			isa = PBXGroup;
 			children = (
@@ -78,6 +97,7 @@
 		F480CBBE2AF132D500026E16 /* RX_Practice */ = {
 			isa = PBXGroup;
 			children = (
+				F470470B2AF6BEE900C105E0 /* Shopping */,
 				F4EE24D62AF3F2C300AEB1E0 /* ViewModel */,
 				F4EE24D52AF3F2B900AEB1E0 /* VC */,
 				F480CBBF2AF132D500026E16 /* AppDelegate.swift */,
@@ -196,10 +216,14 @@
 				F49ED4EF2AF6549A003A8B1B /* ValidViewModel.swift in Sources */,
 				F49ED4ED2AF65149003A8B1B /* NumbersViewModel.swift in Sources */,
 				F49ED4F12AF6584F003A8B1B /* TableViewModel.swift in Sources */,
+				F470470F2AF6BFF000C105E0 /* Todo.swift in Sources */,
 				F49ED4E52AF4E549003A8B1B /* TableViewController.swift in Sources */,
+				F47047112AF6C39800C105E0 /* SampleViewController.swift in Sources */,
+				F470470D2AF6BEF900C105E0 /* ShoppingTableViewCell.swift in Sources */,
 				F4EE24D42AF3F01C00AEB1E0 /* NumbersViewController.swift in Sources */,
 				F49ED4E92AF51549003A8B1B /* ValidationViewController.swift in Sources */,
 				F4EE24D82AF3F2CB00AEB1E0 /* PickerViewModel.swift in Sources */,
+				F47046FE2AF6B21E00C105E0 /* ShoppingViewController.swift in Sources */,
 				F49ED4E72AF4E593003A8B1B /* WireFrame.swift in Sources */,
 				F480CBC02AF132D500026E16 /* AppDelegate.swift in Sources */,
 				F480CBC22AF132D500026E16 /* SceneDelegate.swift in Sources */,

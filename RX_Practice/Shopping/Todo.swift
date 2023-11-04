@@ -6,3 +6,9 @@
 //
 
 import Foundation
+
+struct MyTodo {
+    var myTodo: String
+    var done: Bool
+    var like: Bool
+}

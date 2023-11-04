@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import RxSwift
 
 class ShoppingTableViewCell: UITableViewCell {
     
@@ -14,5 +15,14 @@ class ShoppingTableViewCell: UITableViewCell {
     @IBOutlet weak var doneButton: UIButton!
     @IBOutlet weak var likeButton: UIButton!
     @IBOutlet weak var todoLabel: UILabel!
+    
+    var disposeBag = DisposeBag()
+    
+    override func prepareForReuse() {
+        super.prepareForReuse()
+        disposeBag = DisposeBag()
+    }
+    
+    
     
 }
